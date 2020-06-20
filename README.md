@@ -7,3 +7,6 @@ Code Quiz
 
 New Project
 * Complete changes to html file and css
+* Deleted question.js file
+* Added javascript file with questions and functions
+* Fixed cs
