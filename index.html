@@ -7,26 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div id="text">
-            <h1>Code Quiz</h1>
-            <p>Question:  <text id="number01">0</text></p>
-            <p>Score: <text id="score01">0</text></p>
-            <p>Time: <text id="time01">0</text></p> 
+    <div id="frame001">
+        <div id="font001">
+            <h2>True Or False Quiz</h2><text>Question: <text id="number001">0</text></text><br />
+            <text>Score: <text id="score001">0</text></text><br />
+            <text>Time: <text id="time001">200</text></text><br />
+            <hr />
+            <div id="disappear001">
+                <button class="buttons002" onclick="begin001()">Start Quiz</button>
+            </div>
+            <p id="message001"></p>
+            <p id="message002"></p>
+            <p id="message003"></p>
+            <p id="message004"></p>
         </div>
-        <hr>
-        <div id="text2">
-            <div id="qustion"></div>
-            <div id="option"></div>
-            <div id="option"></div>
-            <div id="answer"></div>
-            <button class="button">Start</button>
-        </div>
-        
-
-        
-      
     </div>
+    <script src="script.js"></script>
     
 </body>
 </html>
