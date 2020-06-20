@@ -244,8 +244,8 @@ function next001() {
         message002.innerHTML = "";
         message003.innerHTML = "";
         message004.innerHTML = "<button class=buttons002 onclick=repeat001()>Play again</button>";
-        message005.innerHTML = "<input class=buttons002 onclick=score001()></input>";
-        message006.innerHTML = "<button class=buttons002 onclick=score001()>Score</button>";
+        message005.innerHTML = "<input  class=buttons002 onclick=score001()></input>";
+        message006.innerHTML = "<button class=buttons002 onclick=score001()>Save Score</button>";
     }
 }
 
@@ -261,10 +261,9 @@ function timer001() {
         message002.innerHTML = "";
         message003.innerHTML = "";
         message004.innerHTML = "<button class=buttons002 onclick=repeat001()>Play again</button>";
-        message005.innerHTML = "<input class=buttons002 onclick=score001()></input>";
-        message006.innerHTML = "<button class=buttons002 onclick=score001()>Score</button>";
+        message005.innerHTML = "<input  class=buttons002 onclick=score001()></input>";
+        message006.innerHTML = "<button  class=buttons002 onclick=score001()>Save Score</button>";
     }
-    
 }
 
 update = setInterval("timer001()", 1000);
